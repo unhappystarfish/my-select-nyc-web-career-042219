@@ -4,5 +4,5 @@ def my_select(collection)
     yield(collection[i])
     i = i + 1
   end
-  array
+  collection
 end
